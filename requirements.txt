@@ -1,0 +1,11 @@
+streamlit
+Pillow
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+torch
+ollama
+
+# pip install -r requirements.txt
+# streamlit run app.py
