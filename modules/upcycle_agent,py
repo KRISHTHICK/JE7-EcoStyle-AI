@@ -1,0 +1,26 @@
+# modules/upcycle_agent.py
+
+def get_upcycle_ideas(description):
+    # Return some mock suggestions based on keywords
+    ideas = []
+
+    if "shirt" in description.lower():
+        ideas = [
+            "Turn it into a tote bag.",
+            "Use the fabric for a cushion cover.",
+            "Create headbands or wristbands."
+        ]
+    elif "jeans" in description.lower() or "denim" in description.lower():
+        ideas = [
+            "Make a denim apron.",
+            "Use patches for quilts or bags.",
+            "Craft a phone holder or storage basket."
+        ]
+    else:
+        ideas = [
+            "Use the material for creative DIY crafts.",
+            "Make reusable cleaning cloths.",
+            "Decorate old clothes with embroidery or fabric paint."
+        ]
+
+    return ideas
